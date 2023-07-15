@@ -8,4 +8,44 @@ box-sizing: border-box;
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Work Sans', sans-serif;
+font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+header {
+   background-color: bisque; 
+   padding: 3.75rem 15rem;
+}
+
+.logo h3{
+    font-size: 3rem;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.menu li:hover {
+    background-color: gray;
+    color: #fff;
 }
