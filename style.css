@@ -24,7 +24,7 @@ li {
     padding: 10px 20px;
 }
 
-header {
+.header-banner-section {
    background-color: bisque; 
    padding: 3.75rem 15rem;
 }
@@ -78,9 +78,61 @@ header {
     background-color: coral;
     border: none;
     border-radius: .3rem;
+    font-size: 1.3rem;
 }
 
 .btn-1:hover {
     background-color: crimson;
     color: #fff;
 }
+
+/* meadia-query-header-section */
+@media screen and (max-width: 576px) {
+    .header-banner-section {
+        background-color: lawngreen;
+        padding: .5rem 2rem;
+     }
+
+     .nav-section {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo h3 {
+        padding-top: 2rem;
+    }
+
+    .logo h3 {
+        margin-top: .2rem;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .header-banner-section {
+        padding: .5rem 2rem;
+    }
+
+    .nav-section {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tittle h1 {
+        font-style: italic;
+    }
+
+    .tittle p {
+        font-style: italic;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width:1200px) {
+
+    .header-banner-section {
+        padding: 2rem 5rem;
+        max-width: 1200px;
+     }
+}
+
