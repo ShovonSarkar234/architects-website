@@ -34,7 +34,7 @@ header {
     margin-top: 5px;
 }
 
-.container {
+.nav-section {
     display: flex;
     justify-content: space-between;
 }
@@ -47,5 +47,40 @@ header {
 
 .menu li:hover {
     background-color: gray;
+    color: #fff;
+}
+
+.tittle {
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.tittle h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 1.5rem;
+}
+
+.tittle p {
+    color: #727272;
+}
+
+.banner-img img{
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+}
+
+.btn-1 {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: coral;
+    border: none;
+    border-radius: .3rem;
+}
+
+.btn-1:hover {
+    background-color: crimson;
     color: #fff;
 }
